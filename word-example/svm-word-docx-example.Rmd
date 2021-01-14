@@ -1,7 +1,8 @@
 ---
-title: "Untitled (Note: This is a still a work in progress and also MS Word suuuuuucks."
+title: 'Untitled (Note: This is a still a work in progress and also MS Word suuuuuucks.'
 author: "Steven V. Miller"
 output:
+  pdf_document: default
   word_document:
     reference_docx: ../svm-rmarkdown-word.docx
 ---

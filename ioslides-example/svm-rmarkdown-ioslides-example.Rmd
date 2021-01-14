@@ -1,15 +1,17 @@
 ---
-title: An Example R Markdown Document
+title: "An Example R Markdown Document"
+author: "Steven V. Miller"
 subtitle: (A Subtitle Would Go Here if This Were a Class)
-author: Steven V. Miller
-institute: Department of Political Science
+output:
+  beamer_presentation: default
+  ioslides_presentation:
+    smaller: yes
+    logo: ~/Dropbox/teaching/clemson-paw-transparent.png
+    css: ../svm-ioslides-css.css
+  slidy_presentation: default
 titlegraphic: /Dropbox/teaching/clemson-academic.png
 fontsize: 10pt
-output:
- ioslides_presentation:
-    smaller: true
-    logo: ~/Dropbox/teaching/clemson-paw-transparent.png
-    css: ../svm-ioslides-css.css    
+institute: Department of Political Science
 ---
 
 
