@@ -262,3 +262,7 @@ Ground Rules: In an effort to ensure our learning community develops, thrives an
 # Class Schedule
 
 Not included here. Please, refer to our Canvas page.
+
+## Corrections 
+
+If you see mistakes or want to suggest changes, please create an issue on the [source repository](https://github.com/drfurtado/academic-templates/issues).
