@@ -3,13 +3,13 @@ title: 'Cal State Northridge | KIN 377 - Motor Learning'
 author: "Ovande Furtado Jr., Ph.D."
 date: "Spring 2021"
 output:
-  html_document:
-    df_print: paged
   pdf_document:
     keep_tex: yes
     fig_caption: yes
     latex_engine: pdflatex
     template: ../svm-latex-syllabus.tex
+  html_document:
+    df_print: paged
 geometry: margin=1in
 subtitle:
 email: ovande.furtado@csun.edu
@@ -32,7 +32,17 @@ This course is designed to study the principles, theories, and research evidence
 
 # Course Format
 
-This is a Fully Online Course (OF). A Fully Online Course is an online course offering in which all class sessions and exams are presented in an online environment. OF courses have no on-campus meetings. This course will be delivered 100% online via Canvas and taught ASYNCHRONOUSLY[^1]. This course consists of readings, written assignments, weekly responses, and check-ins on our Canvas page. 
+This course consists of readings, written assignments, weekly responses, and check-ins on our Canvas page.
+
+I teach two different versions of this course (see below). The content covered is the same for both versions. The schedule varies slightly between the two versions. Refer to Canvas for more informaiton.  
+
+## Fully Online (FOI)
+
+This is a Fully Online class (FOI) in which all class sessions and exams are presented in an online environment. FOI courses have no on campus meetings. Online meetings may be a mix of scheduled and/or intermittent meeting times, and anytime access. 
+
+## Fully Online (OF/FOA/FOS)
+
+This is a Fully Online class (OF/FOA/FOS) in which all class sessions and exams are presented in an online environment. OF courses have no on campus meetings
 
 This course is not self-paced and is not the "softer, easier way"! This means that you have to **1) check in regularly and 2) respond to the weekly assignments.** 
 
@@ -262,7 +272,3 @@ Ground Rules: In an effort to ensure our learning community develops, thrives an
 # Class Schedule
 
 Not included here. Please, refer to our Canvas page.
-
-## Corrections 
-
-If you see mistakes or want to suggest changes, please create an issue on the [source repository](https://github.com/drfurtado/academic-templates/issues).
