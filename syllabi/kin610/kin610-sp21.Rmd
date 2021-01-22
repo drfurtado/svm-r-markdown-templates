@@ -7,7 +7,7 @@ output:
     keep_tex: yes
     fig_caption: yes
     latex_engine: pdflatex
-    template: ../svm-latex-syllabus.tex
+    template: ../../svm-latex-syllabus.tex
   html_document:
     df_print: paged
 geometry: margin=1in
