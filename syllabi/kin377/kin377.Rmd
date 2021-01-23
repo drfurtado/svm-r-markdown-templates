@@ -7,7 +7,7 @@ output:
     keep_tex: yes
     fig_caption: yes
     latex_engine: pdflatex
-    template: ../svm-latex-syllabus.tex
+    template: ../../svm-latex-syllabus.tex
   html_document:
     df_print: paged
 geometry: margin=1in
@@ -34,17 +34,19 @@ This course is designed to study the principles, theories, and research evidence
 
 This course consists of readings, written assignments, weekly responses, and check-ins on our Canvas page.
 
-I teach two different versions of this course (see below). The content covered is the same for both versions. The schedule varies slightly between the two versions. Refer to Canvas for more informaiton.  
+I teach two different versions (FOI and OF/FOA/FOS) of this course (see below). The content covered is the same for both versions. The schedule varies slightly between the two versions[^1]. Refer to Canvas for more information.  
 
-## Fully Online (FOI)
+## Fully Online (FOI) - 19485-SP2021
 
-This is a Fully Online class (FOI) in which all class sessions and exams are presented in an online environment. FOI courses have no on campus meetings. Online meetings may be a mix of scheduled and/or intermittent meeting times, and anytime access. 
+This is a Fully Online class (FOI) in which all class sessions and exams are presented in an online environment. FOI courses have no on campus meetings. **Online meetings may be a mix of scheduled and/or intermittent meeting times, and anytime access**. 
 
-## Fully Online (OF/FOA/FOS)
+## Fully Online (OF/FOA/FOS) - 19521-SP2021 & 19869-SP2021
 
-This is a Fully Online class (OF/FOA/FOS) in which all class sessions and exams are presented in an online environment. OF courses have no on campus meetings
+This is a Fully Online class (OF/FOA/FOS) in which all class sessions and exams are presented in an online environment. OF courses have no on-campus meetings
 
-This course is not self-paced and is not the "softer, easier way"! This means that you have to **1) check in regularly and 2) respond to the weekly assignments.** 
+In addition,
+
+> This course is not self-paced and is not the "softer, easier way"! This means that you have to **1) check in regularly and 2) respond to the weekly assignments.** 
 
 ## Are you ready to learn online?
 
@@ -79,7 +81,19 @@ At the conclusion of this course, students should be able to:
 
 ## Required Material
 
-Magill, R. A., & Anderson, D. (2020). Motor learning and control: Concepts and applications. McGraw-Hill Education. https://books.google.com/books?id=AgZTzQEACAAJ  
+Magill, R. A., & Anderson, D. (2020). Motor learning and control: Concepts and applications. McGraw-Hill Education.
+
+**Link to Matador Bookstore**: https://bit.ly/3pn1QLG
+
+### myCSUNDigitalAccess Program
+
+This course is part of the myCSUNDigitalAccess. The program
+
+> "is designed to help students save money and have access to their materials by the first day of class. The myCSUNDigitalAccess Program is a team effort between the Campus Store, the faculty, and the publishers to provide students with the best cost savings."
+
+Option to **Opt-out**: You have the option to opt-out from the program by 2/12/21 (hard deadline), in which case you will lose access to the electronic material.
+
+For more information about this program, please visit the following link: https://bit.ly/3pcWcfb
 
 ## Suggested Material
 
