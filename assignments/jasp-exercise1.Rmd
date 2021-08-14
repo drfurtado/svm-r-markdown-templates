@@ -1,0 +1,63 @@
+---
+title: "KIN 610 | JASP Assignment 1"
+author: "Dr. Furtado"
+header-includes: \linespread{1.05}
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document:
+    keep_tex: yes
+    fig_caption: yes
+    latex_engine: pdflatex
+    template: ../svm-latex-statement.tex
+geometry: margin=1in
+affiliation: Department of Kinesiology, Cal State Northridge
+email: ovandef@csun.edu
+fontfamily: mathpazo
+fontsize: 11pt
+---
+
+# Learning objectives
+
+1. Differentiate between independent and dependent variables
+2. Assign the correct data level to variables (nominal, ordinal, and scale)
+3. Create and compute new variables in JASP
+4. Select and deselect cases in JASP
+5. Create and interpret histograms, boxplots, and Q-Q Plots
+
+# Dataset: download link will be available on Canvas
+
+1.  Open the data set in JASP (Open > Computer)
+2.  Note the data set has 3 variables
+3.  Set the variables to their appropriate scale (e.g., Nominal, Ordinal, Scale)
+
+# Questions ^[Each question is worth 2 points]
+
+## **Question 1**: Variables
+
+What is(are) the independent variable(s) for this data set?
+
+What is(are) the dependent variable(s) for this data set?
+
+------------------------------------------------------------------------
+
+## **Question 2**: Create a new **scale** variable and name it **log10-heart-rate**; then compute the log10 of **Heart Rate** into this variable. Then, calculate the min, max, and mean for this variable.
+
+------------------------------------------------------------------------
+
+## **Question 3**: Select cases so that **only** Female runners are selected for the current analysis. Then, using the variable **Heart Rate**, create a histogram for the selected cases. Without considering the other sources of normality (e.g., zkurt, zskew, q-q plots, Shapiro-Wilk test), does the distribution of scores appear to be approximating or deviating from normality?
+
+Note: If turning this assignment for grade, **copy and paste the histogram below** and **provide your answers** below the graph.
+
+------------------------------------------------------------------------
+
+## **Question 4**: Before proceeding, unselect cases so that both groups (e.g., runners and control) can be considered for the this analysis. Using the variable you created (log10-heart-rate), create boxplots for both groups so that they appear side-by-side on the same graph. Now, inspect both boxplots and list potential outliers for each group (control and runners). 
+
+Note: If turning this assignment for grade, **copy and paste the boxplot graph below** and **provide your answers** below the graph.
+
+-----
+
+## **Question 5**: Before proceeding, unselect **all** previously selected cases. Using the variable *Heart Rate*, create two Q-Q Plots (one for males and one for females). Without considering the other sources of normality (e.g., zkurt, zskew, histogram, Shapiro-Wilk test), does the distribution of scores appear to be approximating or deviating from normality for males? How about females?
+
+Note: If turning this assignment for grade, **copy and paste the Q-Q Plots below** and **provide your answers** below the graphs.
