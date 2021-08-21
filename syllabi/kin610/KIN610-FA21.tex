@@ -88,7 +88,18 @@ Quantitative Analysis of Research in Kinesiology},
 
 \setcounter{secnumdepth}{0}
 
+\usepackage{longtable}
 
+\usepackage{graphicx}
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+\else\Gin@nat@width\fi}
+\makeatother
+\let\Oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
 
 
 
@@ -124,6 +135,28 @@ Office: 289 Redwood Hal  & Class Room: \emph{online}\\
 \vspace{2mm}
 	
 
+
+\begin{quote}
+COVID-19 - Please Read!!!
+\end{quote}
+
+\begin{quote}
+CSUN is following guidelines from the California Department of Public
+Health and Los Angeles County Department of Public Health to promote
+safety during the COVID-19 pandemic for all students, employees, and
+visitors.
+\href{http://www.csun.edu/ua/email/NCpages/0813_student_vaccination.html}{The
+California State University requires all students and employees to be
+fully vaccinated against COVID-19 before coming to campus}, and no later
+than September 30, 2021, unless an approved exemption has been requested
+and regular testing is underway. In order to protect against the spread
+of COVID, all students, employees, and visitors to campus are required
+to adhere to all health and safety requirements outlined on the
+\href{https://www.csun.edu/matadors-forward/health-and-safety}{University's
+website regarding COVID-19}.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{course-description-format}{%
 \section{Course Description \& Format}\label{course-description-format}}
@@ -405,7 +438,7 @@ More e-mail stuff\ldots{}
   If you have questions concerning assignments, deadlines, etc., please
   first submit a post to our \textbf{Q\&A Forum in Canvas}. If a
   response is not posted within 24 hours (by me or a classmate), you can
-  send me an e-mail \textbf{via \emph{inbox} in Canvas\footnote{Learning
+  send me an e-mail \textbf{via \emph{inbox} in Canvas}\footnote{\textbf{Learning
     Management System used by
     \href{https://www.csun.edu/it/canvas}{CSUN}}}. I will typically
   respond within 24 hours (Monday-Friday).
@@ -563,10 +596,69 @@ Support:}\label{technology-requirements-and-support}}
   in Canvas) to orient yourself to the flow of the learning.
 \item
   This course requires regular engagement and practice using
-  \protect\hyperlink{supplies}{Jamovi} (Statistical Package).
+  \protect\hyperlink{supplies}{jamovi} (Statistical Package).
 \end{enumerate}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{how-to-be-success-in-this-course}{%
+\section{How to be Success in this
+Course}\label{how-to-be-success-in-this-course}}
+
+Consider the goals you have for engaging in this course as you determine
+how to allocate time to complete course requirements.
+
+Each student has a different pace when comes to studying for a course.
+Thus, I will let you figure out how many hours you need to reserve each
+week for this course. Regardless of the number of hours chosen, try to
+divide your time so that you devote more time to \texttt{assignments}
+and \texttt{assigned\ readings}.
+
+The Module Time chart below provides a visual representation of the
+typical time spent completing a module, followed by an example weekly
+schedule.
+
+\hypertarget{module-time}{%
+\subsection{Module time}\label{module-time}}
+
+A typical module in this course is comprised of the following
+categories:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Readings + eFlashcards
+\item
+  Mini-lecture
+\item
+  Practice \texttt{jamovi}
+\item
+  Assignments (major takeaways, quizzes)
+\end{enumerate}
+
+\includegraphics{KIN610-FA21_files/figure-latex/unnamed-chunk-1-1.pdf}
+
+\hypertarget{example-weekly-schedule}{%
+\subsection{Example Weekly Schedule}\label{example-weekly-schedule}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.52}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.48}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Day
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tasks
+\end{minipage} \\
+\midrule
+\endhead
+Monday-Tuesday (or get a jump-start on the weekend) & Read the
+chapter(s) + Study the eFlashcards \\
+Wednesday-Thursday & Watch the mini-lectures + Practice jamovi \\
+Friday-Sunday & Complete the assignments \\
+\bottomrule
+\end{longtable}
 
 \hypertarget{class-schedule}{%
 \section{Class Schedule}\label{class-schedule}}
