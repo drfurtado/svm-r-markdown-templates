@@ -261,15 +261,12 @@ pie(slices,labels = lbls, main="Module Time")
 
 ## Example Weekly Schedule
 
-+-----------------------------------------------------+-------------------------------------------------+
-| Day                                                 | Tasks                                           |
-+=====================================================+=================================================+
-| Monday-Tuesday (or get a jump-start on the weekend) | Read the chapter(s) + Study the eFlashcards     |
-+-----------------------------------------------------+-------------------------------------------------+
-| Wednesday-Thursday                                  | Watch the mini-lectures + Practice jamovi       |
-+-----------------------------------------------------+-------------------------------------------------+
-| Friday-Sunday                                       | Complete the assignments                        |
-+-----------------------------------------------------+-------------------------------------------------+
+-  Monday-Tuesday (or get a jump-start on the weekend) 
+   -  Read the chapter(s) + Study the eFlashcards
+-  Wednesday-Thursday
+   -  Watch the mini-lectures + Practice jamovi
+-  Friday-Sunday
+   - Complete the assignments
 
 # Class Schedule
 
