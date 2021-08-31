@@ -29,13 +29,30 @@ header-includes: \linespread{1.05}
 
 ------------------------------------------------------------------------
 
-# Course Description & Format
+# Course Description
 
 This class focuses on the introductory statistical techniques used in social science research. Students will be introduced to concepts such as reliability, validity, measures of central tendency, variability, probability, and statistical techniques including: t tests (independent & dependent samples), Analysis of Variance (ANOVA), Chi-square, correlation, and regression. Students are expected to take the material/concepts presented in class and apply them through a series of homework assignments and quizzes. The overall goal of the course is not only to help students understand the mathematical/statistical concepts presented but also to assist in the application of these procedures.
 
-This is a Fully Online class (FOI) in which all class sessions and exams are presented in an online environment. FOI courses have no on campus meetings. Online meetings may be a mix of scheduled and/or intermittent meeting times, and anytime access.
+# Course Format
 
-------------------------------------------------------------------------
+This is a Campus Online class (COI) in which most class sessions are presented in an online environment with intermittent face-to-face meetings. 
+
+> As of now, I have plans for us to meet only once face-to-face during the semester (12/14/21). This may change as CSUN policies are updated and/or COVID-19 cases increase significantly. 
+
+## Virtual Classroom Guidelines: 
+
+- Please make sure that the name displayed in Zoom is your real name (first and last);
+- I appreciate if you keep your camera on throughout the session, though this is not a requirement; 
+- As a courtesy, please try to join the session prior to the start time and participate in the entire session; 
+- Respectful behavior and professional courtesy is a requirement at all times; 
+- Review any readings, and assignments for the week prior to participating in the weekly session and come prepared with any questions; 
+- Keep your microphone on mute if you are not actively speaking in order to reduce background noise; 
+- These sessions will **not be recorded** as they are designed for primarily discussion and question and answer sessions; - Please contact a classmate if you miss a session to catch up on any additional information you may have missed. 
+- If you plan to keep the video turned on during our Zoom meetings, I will kindly ask you to download and use one of the CSUN backgrounds, instead of using your own or use no background.
+  - Examples: https://bit.ly/3pbJb5H (Links to an external site.) 
+  - How to install and use: https://bit.ly/3hDl3ow
+
+----
 
 # Expectations and Goals
 
@@ -258,7 +275,6 @@ lbls <- paste(lbls,"%",sep="") # ad % to labels
 pie(slices,labels = lbls, main="Module Time") 
 
 ```
-
 ## Example Weekly Schedule
 
 -  Monday-Tuesday (or get a jump-start on the weekend) 
@@ -267,6 +283,37 @@ pie(slices,labels = lbls, main="Module Time")
    -  Watch the mini-lectures + Practice jamovi
 -  Friday-Sunday
    - Complete the assignments
+
+# Student Support Services
+
+CSUN aims to make all learning experiences as accessible as possible, and has a variety of resources available to help support students.  If you believe the design of this course poses barriers to effectively participate or demonstrate your learning, please contact me to discuss possible options and adjustments. 
+
+- The IT Help Center (818)677-1400, helpcenter@csun.edu is available to help with Canvas, CSUN e-mail, SOLAR/Portal, and other technical issues.   
+- CSUN Device Loaner Program (https://bit.ly/3t1G0An) provides devices that can be checked out that includes laptops, webcams, hotspots and headsets 
+- The Learning Resource Center (818) 677-2033  The mission of the LRC is to enable students to improve their academic performance through a variety of learning programs, including workshops, one-on-one and group tutoring, supplemental instruction classes and interactive subject area computer programs and videos.  Student who use the LRC learning programs will develop and strengthen their critical thinking skills, study strategies, writing skills and performance in subject matter courses. 
+- University Counseling Services (818) 677-2366, Bayramian Hall 520.  UCS provides resources and information to assist students in dealing with a variety of large and small psychological obstacles that may interfere with academic progress and/or relationship satisfaction.  Services include individual, group, and crisis counseling. 
+- In accordance with the CSUN Accessibility Policy (https://bit.ly/3yqGHE9), CSUN is working to ensure that campus communication and course materials are accessible to everyone.  Please reach out to me if you have difficulty with any of the materials for this course. 
+- If you have a disability and need accommodations, please register with the Disability Resources and Educational Services (DRES) office or the National Center on Deafness (NCOD). 
+  - The DRES office can be reached at (818) 677-2684. 
+  - NCOD can be reached at (818) 677-2611. 
+  - Reasonable accommodations and services will be provided to students if requests are made in a timely manner and with appropriate documentation 
+  - If you would like to discuss your need for accommodations with me, please drop in office hours or contact me to set up an appointment. 
+- Food Pantry (https://bit.ly/38nTsVH) at CSUN: Anybody who faces challenges securing food or housing and believes this impacts course performance, should contact CSUN's Food Pantry website and the corresponding contacts. If you also feel comfortable contacting me, the department chair, or the Dean's Office, we can also facilitate assistance. You don't have to be alone in this moment. 
+- Emergency MataCare grants (https://bit.ly/2WAZkIz), one-time grants to prevent evictions, urgent child care issues, etc. - DACA (Deferred Action for Childhood Arrivals) Resources: Check out the Central American Resource Center facebook page (https://bit.ly/2Yg0p9z), legal resources listed on CSUN's Educational Opportunity Program (EOP) Dream Center that was created to support all undocumented students & allies (Dream Center flyer). CSUN President Harrison issued a support statement on the CSUN homepage for DACA and resources. 
+- Help lines (https://bit.ly/3sYbMOo)(after hours when the University Counseling is closed) for numerous topics/needs (e.g., suicide, drug, rape, LGBQT, military, or any crisis). You don't have to manage these feelings alone. 
+- Pride Center (https://bit.ly/3jqNZUi) offers support and resources to lesbian, gay, bisexual, transgender, queer, & questioning students, faculty, & staff. 
+- Klotz Student Health Center (https://bit.ly/3zx1Y0s): Numerous health services including primary care, dental, nutritional counseling, acupuncture, massage and lots more. 
+- Career Center (https://bit.ly/3jtTcL2) for resume writing & interviewing and much more; Matty's Closet (https://bit.ly/3jAResx) has free professional clothes for students who need interview or professional attire. 
+- USU 9https://bit.ly/38uz59j) for more student services; Clubs & Organizations (https://bit.ly/38tBhOa): Hopefully a dozen people have already advised you to "get involved" (https://bit.ly/3ysqYVb) at CSUN in something that interests you. 
+- Associated Students (https://bit.ly/3yuWjGT) offers recycling, and a Children's Center providing child care 
+- Financial Aid & Scholarships (https://bit.ly/3sYFzqr) offers aid for applications 
+- University Library https://bit.ly/3yuIEQ9) for many additional academic resources 
+- Veterans Resource Center (https://bit.ly/38qYtg7) assists CSUN students as they transition from military service to academic success.
+
+Title 5, California Code of Regulations,§ 41301. Standards for Student Conduct – (a) Campus Community Values: The university is committed to maintaining a safe and healthy living and learning environment for students, faculty, and staff. Each member of the campus community should choose behaviors that contribute toward this end. Students are expected to be good citizens and to engage in responsible behaviors that reflect well upon their university, to be civil to one another and to others in the campus community, and contribute positively to student and university life. 
+
+CSUN with A HEART 
+If you are facing challenges related to food insecurity, housing precarity/homelessness, mental health, access to technology, eldercare/childcare, or healthcare, you can find guidance, help, and resources from CSUN with A HEART (https://www.csun.edu/heart). 
 
 # Class Schedule
 
