@@ -1,14 +1,9 @@
 ---
-output:
-  pdf_document: default
-  html_document: default
----
-"
-output:
-  pdf_document:---
 title: 'Cal State Northridge | KIN 377 - Motor Learning'
 author: "Ovande Furtado Jr., Ph.D."
-date: "Winter 2021-22
+date: "Winter 2021"
+output:
+  pdf_document:
     keep_tex: yes
     fig_caption: yes
     latex_engine: pdflatex
@@ -19,7 +14,7 @@ geometry: margin=1in
 subtitle:
 email: ovande.furtado@csun.edu
 web: drfurtado.us
-officehours: Tue 2-3 pm
+officehours: Tue 2 pm
 office: 289 Redwood Hal
 classroom: '*online*'
 classhours: Fully Online Assynchronous
@@ -144,8 +139,6 @@ More e-mail stuff...
 -   If you have questions concerning assignments, deadlines, etc., please first send an email to our class mailing list (see below), rather than sending me a personal email (ovande.furtado@csun.edu).
 
 -   If you need to schedule an online meeting via Zoom (https://csun.zoom.us/), you can do so by visiting this link: http://calendly.com/drfurtado. Details will be provided when the meeting is scheduled via Calendly, including the option to cancel/reschedule a meeting, if needed.
-
-[^2]: **Learning Management System used by [CSUN](https://www.csun.edu/it/canvas)**
 
 ## Make-Up Exam Policy
 
