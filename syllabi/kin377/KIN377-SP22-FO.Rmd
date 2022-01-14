@@ -1,7 +1,7 @@
 ---
 title: 'Cal State Northridge | KIN 377 - Motor Learning'
 author: "Ovande Furtado Jr., Ph.D."
-date: "Fall 2021"
+date: "Spring 2022"
 output:
   pdf_document:
     keep_tex: yes
@@ -16,7 +16,7 @@ email: ovande.furtado@csun.edu
 web: drfurtado.us
 officehours: Tue 10:00 a.m. - 12:00 noon
 office: 289 Redwood Hal
-classroom: '*online*'
+classroom: '*Online*'
 classhours: Fully Online Assynchronous
 fontfamily: mathpazo
 fontsize: 11pt
@@ -31,9 +31,7 @@ Study of principles, theories, and research evidence regarding the nature of mot
 
 This course consists of readings, written assignments, weekly responses, and check-ins on our Canvas page.
 
-I teach two different versions (FOI and OF/FOA/FOS) of this course (see below). The content covered is the same for both versions. The schedule varies slightly between the two versions[^1]. Refer to Canvas for more information.
-
-[^1]: Lessons are pre-recorded and students go over the material on their own pace. However, assignments related to each module are due at the end of each week during the semester.
+>Lessons are pre-recorded and students go over the material on their own pace. However, assignments related to each module are due at the end of each week during the semester.
 
 ## Fully Online (OF/FOA/FOS)
 
@@ -88,12 +86,12 @@ Link to Matador Bookstore: <https://bit.ly/37yiD7u>
 3. Some or all of your materials for this course are being provided digitally through the _MCDA_ program. 
 4. ALL enrolled students will have access to the materials through Canvas by the 1st day of class, but more likely earlier. 
 5. If you want to keep access throughout the semester, you need do nothing. A charge will be placed on your CSUN student portal account (just like tuition, but a separate charge) around the 5th or 6th week of classes. You will then be responsible for paying the university. 
-6. If you choose to obtain your materials elsewhere you have until FRIDAY, **9/17/21** to Opt-Out (see instructions below). Those who Opt-Out by 9/17/21 will lose access and will **not be charged**.
-7. Anyone who does not Opt-Out by the 9/17/21 deadline will be charged and those charges **will not be reversible**. 
+6. If you choose to obtain your materials elsewhere you have until FRIDAY, **2/11/22** to Opt-Out (see instructions below). Those who Opt-Out by **2/11/22** will lose access and will **not be charged**.
+7. Anyone who does not Opt-Out by the **2/11/22** deadline will be charged and those charges **will not be reversible**. 
 
 #### Opt-out Instructions. 
 
-If you wish to opt out of this program and not purchase access to the required digital materials you will need to follow the steps below by September 17, 2021: 
+If you wish to opt out of this program and not purchase access to the required digital materials you will need to follow the steps below by **2/11/22**: 
 
 1. Go to https://accessportal.follett.com/0150. 
 2. Click on Create an Account on the lower right. 
@@ -153,6 +151,8 @@ Although this is an online course, "attendance" is crucial. And by that I mean: 
 
 ## E-mail Policy
 
+If you have a question concerning this course (i.e., assignments, content, deadlines, etc.), send a message^[When referring to an assignment, open it online, copy its URL address, and include it as part of your question. Students may also answer questions that are sent to our mailing list.] to our mailing list (provide under Canvas>Modules>Survival Skills). For any other matters, send me a message at my CSUN email.
+
 I am usually quick to respond to student e-mails. Below, I outline why I will not respond to certain e-mails students send. Multiple rationales follow.
 
 1.  The student could answer his/her own inquiry by reading the syllabus.
@@ -161,8 +161,6 @@ I am usually quick to respond to student e-mails. Below, I outline why I will no
 4.  The student is asking for an extra credit opportunity, a request that amounts to more grading for the professor. The answer is "no".
 
 More e-mail stuff...
-
--   If you have questions concerning assignments, deadlines, etc., please first submit a post to our **Q&A Forum on Canvas**. If a response is not posted within 24 hours (by me or a classmate), you can send me an e-mail **via *Inbox* in Canvas**[^2]. I will typically respond within 24 hours (Monday-Friday).
 
 -   If you need to schedule an online meeting via Zoom (https://csun.zoom.us/), you can do so by visiting this link: http://calendly.com/drfurtado. Details will be provided when the meeting is scheduled via Calendly, including the option to cancel/reschedule a meeting, if needed.
 
@@ -295,3 +293,9 @@ Ground Rules: In an effort to ensure our learning community develops, thrives an
 # Class Schedule
 
 Not included here. Please, refer to our Canvas page.
+
+# Appendices
+
+## Appendix A, B, C
+
+Not provide here. Please, refer to our Canvas page. The material associated with these appendices are related to the Learning Task Assignment, which accounts for 50% of the final grade. ***THIS MEANS YOU MUST READ AND STUDY THE CONTENT OF APPENDIX A, B, AND C.***
