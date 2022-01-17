@@ -1,0 +1,857 @@
+\documentclass[11pt,]{article}
+\usepackage[margin=1in]{geometry}
+\newcommand*{\authorfont}{\fontfamily{phv}\selectfont}
+\usepackage[]{mathpazo}
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}} 
+\usepackage{longtable,booktabs}
+
+\usepackage{parskip}
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+
+\titleformat*{\subsubsection}{\normalsize\itshape}
+
+\usepackage{titling}
+\setlength{\droptitle}{-.25cm}
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+%\setlength{\emergencystretch}{3em}  % prevent overfull lines 
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{lastpage}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0.0pt} 
+\lhead{}
+\chead{}
+\rhead{\footnotesize Cal State Northridge \textbar{} KIN 610 -
+Quantitative Analysis of Research in Kinesiology -- Spring 2022}
+\lfoot{}
+\cfoot{\small \thepage/\pageref*{LastPage}}
+\rfoot{}
+
+\fancypagestyle{firststyle}
+{
+\renewcommand{\headrulewidth}{0pt}%
+   \fancyhf{}
+   \fancyfoot[C]{\small \thepage/\pageref*{LastPage}}
+}
+
+%\def\labelitemi{--}
+%\usepackage{enumitem}
+%\setitemize[0]{leftmargin=25pt}
+%\setenumerate[0]{leftmargin=25pt}
+
+
+
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{%
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+}
+\@ifpackageloaded{color}{
+    \PassOptionsToPackage{usenames,dvipsnames}{color}
+}{%
+    \usepackage[usenames,dvipsnames]{color}
+}
+\makeatother
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={ ()},
+             pdfkeywords = {},  
+            pdftitle={Cal State Northridge \textbar{} KIN 610 -
+Quantitative Analysis of Research in Kinesiology},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+
+
+\setcounter{secnumdepth}{0}
+
+
+\usepackage{graphicx}
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+\else\Gin@nat@width\fi}
+\makeatother
+\let\Oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+
+
+
+\usepackage{setspace}
+
+\title{Cal State Northridge \textbar{} KIN 610 - Quantitative Analysis
+of Research in Kinesiology}
+\author{Ovande Furtado Jr., Ph.D.}
+\date{Spring 2022}
+
+
+\begin{document}  
+
+		\maketitle
+		
+	
+		\thispagestyle{firststyle}
+
+%	\thispagestyle{empty}
+
+
+	\noindent \begin{tabular*}{\textwidth}{ @{\extracolsep{\fill}} lr @{\extracolsep{\fill}}}
+
+
+E-mail: \texttt{\href{mailto:ovande.furtado@csun.edu}{\nolinkurl{ovande.furtado@csun.edu}}} & Web: \href{http://drfurtado.us}{\tt drfurtado.us}\\
+Office Hours: Tue 10:00 a.m. - 12:00 noon  &  Class Hours: Tu 7:00-9:45
+pm\\
+Office: 289 Redwood Hal  & Class Room: RE 276\\
+	&  \\
+	\hline
+	\end{tabular*}
+	
+\vspace{2mm}
+	
+
+
+\begin{quote}
+COVID-19 - Please Read!!!
+\end{quote}
+
+\begin{quote}
+CSUN is following guidelines from the California Department of Public
+Health and Los Angeles County Department of Public Health to promote
+safety during the COVID-19 pandemic for all students, employees, and
+visitors.
+\href{http://www.csun.edu/ua/email/NCpages/0813_student_vaccination.html}{The
+California State University requires all students and employees to be
+fully vaccinated against COVID-19 before coming to campus}, and no later
+than September 30, 2021, unless an approved exemption has been requested
+and regular testing is underway. In order to protect against the spread
+of COVID, all students, employees, and visitors to campus are required
+to adhere to all health and safety requirements outlined on the
+\href{https://www.csun.edu/matadors-forward/health-and-safety}{University's
+website regarding COVID-19}.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{course-description}{%
+\section{Course Description}\label{course-description}}
+
+This class focuses on the introductory statistical techniques used in
+social science research. Students will be introduced to concepts such as
+reliability, validity, measures of central tendency, variability,
+probability, and statistical techniques including: t tests (independent
+\& dependent samples), Analysis of Variance (ANOVA), Chi-square,
+correlation, and regression. Students are expected to take the
+material/concepts presented in class and apply them through a series of
+homework assignments and quizzes. The overall goal of the course is not
+only to help students understand the mathematical/statistical concepts
+presented but also to assist in the application of these procedures.
+
+\hypertarget{course-format}{%
+\section{Course Format}\label{course-format}}
+
+The format of this course is Traditional face-to-face. However, note
+that:
+
+\begin{quote}
+Per CSUN's announcement on January 7, CSUN will begin the spring
+semester with temporary primarily remote instruction for the first three
+weeks of the semester, Monday, January 24 through Friday, February 11.
+We will resume in-person instruction on Monday, February 14.
+\end{quote}
+
+\hypertarget{virtual-classroom-guidelines}{%
+\subsection{Virtual Classroom
+Guidelines:}\label{virtual-classroom-guidelines}}
+
+\begin{itemize}
+\tightlist
+\item
+  Please make sure that the name displayed in Zoom is your real name
+  (first and last);
+\item
+  I appreciate if you keep your camera on throughout the session, though
+  this is not a requirement;
+\item
+  As a courtesy, please try to join the session prior to the start time
+  and participate in the entire session;
+\item
+  Respectful behavior and professional courtesy is a requirement at all
+  times;
+\item
+  Review any readings, and assignments for the week prior to
+  participating in the weekly session and come prepared with any
+  questions;
+\item
+  Keep your microphone on mute if you are not actively speaking in order
+  to reduce background noise;
+\item
+  These sessions will \textbf{not be recorded} as they are designed for
+  primarily discussion and question and answer sessions; - Please
+  contact a classmate if you miss a session to catch up on any
+  additional information you may have missed.
+\item
+  If you plan to keep the video turned on during our Zoom meetings, I
+  will kindly ask you to download and use one of the CSUN backgrounds,
+  instead of using your own or use no background.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Examples: \url{https://bit.ly/3pbJb5H} (Links to an external site.)
+  \item
+    How to install and use: \url{https://bit.ly/3hDl3ow}
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{expectations-and-goals}{%
+\section{Expectations and Goals}\label{expectations-and-goals}}
+
+Upon completion of this course, you will be able to adequately:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Introduce statistical concepts utilized in research within the social
+  sciences
+\item
+  Apply the mathematical/statistical techniques presented for social
+  science research
+\item
+  Demonstrate an ability to analyze and interpret data within the social
+  sciences
+\item
+  Provide practical examples as to when statistical techniques presented
+  are appropriate methods for analysis.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{required-suggested-material}{%
+\section{Required \& Suggested
+Material}\label{required-suggested-material}}
+
+\hypertarget{textbook}{%
+\subsection{Textbooks}\label{textbook}}
+
+Danielle Navarro \& David Foxcroft. (2019). Learning statistics with
+jamovi: A tutorial for psychology students and other beginners.
+\url{http://learnstatswithjamovi.com/}
+
+\hypertarget{other-readings}{%
+\subsection{Other readings:}\label{other-readings}}
+
+\begin{itemize}
+\tightlist
+\item
+  Choosing the Correct Statistical Test in SPSS. (n.d.). Retrieved May
+  5, 2013, from \url{https://goo.gl/3Xg8DF}
+\item
+  Universität Düsseldorf: Gpower\footnote{In addition to the download
+    link, you will find the GPower Manual and two publications to help
+    you getting started.}. (n.d.). Retrieved January 15, 2021, from
+  \url{https://www.psychologie.hhu.de/en/research-teams/cognitive-and-industrial-psychology/gpower.html}
+\end{itemize}
+
+\hypertarget{supplies}{%
+\subsection{Supplies:}\label{supplies}}
+
+\begin{itemize}
+\tightlist
+\item
+  A calculator (phone is ok)
+\item
+  Jamovi Statistical Software (Free) - \url{https://www.jamovi.org/}
+\item
+  Jamovi Video Tutorials (Free) - \url{https://bit.ly/2VHvd1w}
+\item
+  OSF Account (Free) - \url{https://bit.ly/3ii2Q0Z}
+\item
+  GPower (Free) - \url{https://bit.ly/2LS1VbI}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{course-structure-and-requirements}{%
+\section{Course Structure and
+Requirements}\label{course-structure-and-requirements}}
+
+You are responsible for the material covered in the textbook prior to
+attending each class. Please note that the week's readings are specified
+in the class schedule (available in Canvas).
+
+In addition to these readings, the instructor may assign supplemental
+readings throughout the semester. These supplemental readings do not
+appear on the schedule as these readings will be assigned at the
+instructor's discretion.
+
+The assignments used to enhance your learning experience in this course
+include:
+
+\hypertarget{class-preparedness}{%
+\subsection{Class preparedness}\label{class-preparedness}}
+
+You will be evaluated on your preparedness by submitting an assignment
+before each class (Major Takeaways). Further details about this
+assignment will be provided in Canvas.
+
+\hypertarget{participation-attendance}{%
+\subsection{Participation \&
+Attendance}\label{participation-attendance}}
+
+Class presence and participation points are given to encourage your
+active class participation and discussion. You will be rewarded with a
+perfect score \textbf{as long as you frequently come to class and
+actively contribute to the class discussion during lectures}.
+
+Although it is not required, most students send their professor a brief
+e-mail to explain their absence in advance. Students who repeatedly join
+the Zoom session late will have their Class Participation grade lowered.
+
+\hypertarget{quizzes}{%
+\subsection{Quizzes}\label{quizzes}}
+
+Following each class, you will complete a multiple-choice quiz on the
+topic covered in class. You will be given three (3) attempts for each
+quiz. The final grade for each quiz will be the \textbf{average} of the
+three attempts. Quizzes are due every Sunday at 11:59 p.m.
+
+\hypertarget{homeworks}{%
+\subsection{Homeworks}\label{homeworks}}
+
+Students will complete three (3) homework assignments in the course of
+the semester. The purpose of each assignment is to assist students in
+applying their understanding of the statistical procedures discussed in
+class as well as to provide an opportunity for students to respond to
+the readings.
+
+\begin{quote}
+\begin{quote}
+NOTE: You are allowed to discuss homework with other students (and with
+the instructor), \textbf{but you must write final answers yourself}, in
+your own words. \textbf{Solutions prepared ``in committee'' or by
+copying or paraphrasing someone else's work are not acceptable}; your
+hand-in assignments must represent your own thoughts (refer to
+\protect\hyperlink{dishonesty}{Academic Dishonesty Policy} for more
+information); especially, the information about PLAGIARISM.
+\end{quote}
+\end{quote}
+
+\hypertarget{final-project}{%
+\subsection{Final Project}\label{final-project}}
+
+You will be required to complete and submit a final project at the end
+of the semester. In short, you will be given a research question and a
+data set. Then, you will be asked to run the proper statistical analysis
+in \protect\hyperlink{supplies}{Jamovi} and turn in a written report.
+\textbf{In addition, you will be required to present the results of your
+project to your classmates}. Further information about this assignment
+will be provided in Canvas.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{course-policy}{%
+\section{Course Policy}\label{course-policy}}
+
+I will detail the policy for this course below. Basically, don't cheat
+and try to learn stuff.
+
+\hypertarget{grading-policy}{%
+\subsection{Grading Policy}\label{grading-policy}}
+
+\begin{itemize}
+\item
+  \textbf{10\%}: Class preparedness\footnote{The lowest score will be
+    dropped at the end of the semester.}
+\item
+  \textbf{5\%}: Participation \& Attendance
+\item
+  \textbf{20\%}: Weekly Quizzes
+\item
+  \textbf{20\%}: Homeworks
+\item
+  \textbf{30\%}: Final Project (Written report)
+\item
+  \textbf{15\%}: Final Project (Presentation)
+\end{itemize}
+
+\hypertarget{grading-scale}{%
+\subsection{Grading Scale}\label{grading-scale}}
+
+A 93.00-100.00 \textbar{} A- 90.00-92.99 B+ 87.00-89.99 \textbar{} B
+83.00-86.99 \textbar{} B- 80.00-82.99 C+ 77.00-79.99 \textbar{} C
+73.00-76.99 \textbar{} C- 70.00-72.99 D+ 67.00-69.99 \textbar{} D
+63.00-66.99 \textbar{} D- 60.00-62.99 F \textless59.99
+
+\begin{quote}
+\emph{Note 1}: In recognition of the fact that grading, however
+carefully done, will always be imperfect, this class will utilize a
+``round up'' rule for assigning final grades. I will round up from .5\%
+and above, but anything below this will round down. In other words, 79.5
+will round up to 80, while 79.4 will round down to 79 even.
+\end{quote}
+
+\begin{quote}
+\emph{Note 2}: Requests for an Incomplete (I) must conform to
+\href{https://bit.ly/3bDxwZi}{university policies}. Among other
+requirements, ``I'' is possible only for instances in which you are
+demonstrating passing work in the class.
+\end{quote}
+
+\hypertarget{attendance-policy}{%
+\subsection{Attendance Policy}\label{attendance-policy}}
+
+\begin{quote}
+\emph{Showing up is 80 percent of life} -- Woody Allen,
+\href{http://quoteinvestigator.com/2013/06/10/showing-up/\#note-6553-1}{via
+Marshall Brickman}
+\end{quote}
+
+Attendance will be taken at the beginning of every class; please, plan
+accordingly.
+
+\hypertarget{e-mail-policy}{%
+\subsection{E-mail Policy}\label{e-mail-policy}}
+
+If you have a question concerning this course (i.e., assignments,
+content, deadlines, etc.), send a message\footnote{When referring to an
+  assignment, open it online, copy its URL address, and include it as
+  part of your question. Students may also answer questions that are
+  sent to our mailing list.} to our mailing list (provide under
+Canvas\textgreater Home). For any other matters, send me a message at my
+CSUN email.
+
+I am usually quick to respond to student e-mails. Below, I outline why I
+will not respond to certain e-mails students send. Multiple rationales
+follow.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The student could answer his/her own inquiry by reading the syllabus.
+\item
+  The student is protesting a grade without reference to specific points
+  of objection. These e-mails tend to be expressive utility on the part
+  of the student and do not require a response from me. Students
+  interested in improving their knowledge of material should see me
+  during office hours.
+\item
+  The student is requesting an extension on an assignment for which the
+  syllabus already established the deadline. The answer is always
+  ``no''; unless you have a reason that can be documented and you
+  contacted me before the deadline.
+\item
+  The student is asking for an extra credit opportunity, a request that
+  amounts to more grading for the professor. The answer is ``no''.
+\end{enumerate}
+
+\textbf{More e-mail stuff\ldots{}}
+
+\begin{itemize}
+\tightlist
+\item
+  If you need to schedule an online meeting via Zoom
+  (\url{https://csun.zoom.us/}), you can do so by visiting this link:
+  \url{http://calendly.com/drfurtado}. The details will be provided when
+  the meeting is scheduled via Calendly, including the option to
+  cancel/reschedule a meeting, if needed.
+\end{itemize}
+
+\hypertarget{make-up-exam-policy}{%
+\subsection{Make-Up Exam Policy}\label{make-up-exam-policy}}
+
+There is no make-up for assignments. Therefore, unless you have
+discussed your situation with me before the assignment's due date and we
+have made other arrangements, a missed assignment results in a grade of
+zero (see late assignment below). \textbf{Note that making
+``arrangements'' will only be possible given the student provides a
+valid and written excuse from a reputable source}.
+
+\hypertarget{late-assignments}{%
+\subsection{Late Assignments}\label{late-assignments}}
+
+Unless you have made previous arrangements, a late assignments will be
+docked 10\% per day (first 4 days) it is late. After the fourth day, it
+will result in a grade of zero.
+
+\hypertarget{extra-credit}{%
+\subsection{Extra Credit}\label{extra-credit}}
+
+There is no individual extra credit granted. Therefore, do not plan to
+make-up poor grades at the end of the semester by asking to do extra
+credit work. I might provide extra credit opportunities, but these will
+be offered to the entire class, not to individuals.
+
+\hypertarget{disabilities-policy}{%
+\subsection{Disabilities Policy}\label{disabilities-policy}}
+
+Federal law mandates the provision of services at the university-level
+to qualified students with disabilities.
+
+This instructor, in conjunction with California State University
+Northridge, is committed to upholding and maintaining all aspects of the
+federal Americans with Disabilities Act of 1990 (ADA) and Section 504 of
+the Rehabilitation Act of 1973.
+
+If you are a student with a disability and wish to request
+accommodations, please contact the office of Students with Disabilities
+Resources located in 110 Student Services Building, or call (818)
+677-2684 for an appointment. Any information regarding your disability
+will remain confidential. Because many accommodations require early
+planning, requests for accommodations should be made as early as
+possible. Any requests for accommodations will be reviewed in a timely
+manner to determine their appropriateness to this setting.
+
+\hypertarget{dishonesty}{%
+\subsection{Academic Dishonesty Policy}\label{dishonesty}}
+
+\emph{Please, \textbf{stop} and read the information below; this is
+important!}
+
+Each student is expected to be familiar with, and abide by, the
+conditions of student conduct, as presented in the CSUN Catalog, with
+emphasis on sections entitled, Student Conduct Code, Academic
+Dishonesty, Faculty Policy on Academic Dishonesty, and Penalties. Any
+student engaging in academic dishonesty (e.g., cheating, fabrication,
+facilitating academic dishonesty, plagiarism) is subject to discipline,
+which may include a failing grade in the course, and may also be subject
+to more severe discipline by the University. Students are encouraged to
+visit the link below and become familiar with the Standards for Student
+Conduct.
+
+\url{http://www.csun.edu/a\&r/soc/studentconduct.html}
+
+\hypertarget{about-plagiarism}{%
+\subsubsection{About Plagiarism}\label{about-plagiarism}}
+
+Plagiarism means using words, ideas, or arguments from another person or
+source without citation\footnote{Except for Homeworks. your hand-in
+  assignments must represent your own thoughts (refer to
+  \protect\hyperlink{dishonesty}{Academic Dishonesty Policy} for more
+  information); especially, the information about PLAGIARISM.}. Cite all
+sources consulted to any extent (including material from the internet),
+whether or not assigned and whether or not quoted directly. For
+quotations, four or more words used in sequence must be set off in
+quotation marks, with the source identified.
+
+Plagiarism is a serious violation of the CSUN Student Conduct Code.
+Please read my comment about plagiarism under
+\protect\hyperlink{homeworks}{Homeworks}. Any form of cheating will
+immediately earn you a failing grade for the entire course. \textbf{By
+remaining enrolled, you consent to this policy}.
+
+\begin{quote}
+Turnitin (see below) will detect such misconducts as it checks every
+submission against a database of papers, as well as against the
+Internet.
+\end{quote}
+
+What is Turnitin?
+
+\href{https://www.turnitin.com/}{Turnitin} is an automated system that
+instructors can use to quickly and easily compare each student's
+assignment with billions of websites, as well as an enormous database of
+student papers that grows with each submission. Accordingly, you will be
+expected to submit assignments through the Canvas Assignment Tool in
+electronic format. After the assignment is processed, as an instructor,
+I receive a report from \emph{Turnitin} that states if and how another
+author's work was used in the assignment.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{final-yet-important-notes}{%
+\section{Final (yet important) Notes}\label{final-yet-important-notes}}
+
+\hypertarget{how-to-access-our-course-and-get-started}{%
+\subsection{How to Access our Course and Get
+Started}\label{how-to-access-our-course-and-get-started}}
+
+\begin{itemize}
+\tightlist
+\item
+  Log into Canvas: \url{https://canvas.csun.edu}
+\item
+  Under ``My Courses,'' locate our course and click on it.
+\item
+  This will take you to the course home page.
+\end{itemize}
+
+\hypertarget{technology-requirements-and-support}{%
+\subsection{Technology Requirements and
+Support:}\label{technology-requirements-and-support}}
+
+\begin{itemize}
+\tightlist
+\item
+  A computer and access to the internet (reliable connection)
+\item
+  Google Chrome (web browser)
+\end{itemize}
+
+\hypertarget{what-i-expect-of-you}{%
+\subsection{What I Expect of You:}\label{what-i-expect-of-you}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Plan your schedule to ensure you several hours per week to spend on
+  this class and take time to identify where and when you'll do your
+  learning.
+\item
+  Review the due dates for the assignments (refer to our Course Schedule
+  in Canvas) to orient yourself to the flow of the learning.
+\item
+  This course requires regular engagement and practice using
+  \protect\hyperlink{supplies}{jamovi} (Statistical Package).
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{how-to-be-success-in-this-course}{%
+\section{How to be Success in this
+Course}\label{how-to-be-success-in-this-course}}
+
+Consider the goals you have for engaging in this course as you determine
+how to allocate time to complete course requirements.
+
+Each student has a different pace when comes to studying for a course.
+Thus, I will let you figure out how many hours you need to reserve each
+week for this course. Regardless of the number of hours chosen, try to
+divide your time so that you devote more time to \texttt{assignments}
+and \texttt{assigned\ readings}.
+
+The Module Time chart below provides a visual representation of the
+typical time spent completing a module, followed by an example weekly
+schedule.
+
+\hypertarget{module-time}{%
+\subsection{Module time}\label{module-time}}
+
+A typical module in this course is comprised of the following
+categories:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Readings + eFlashcards
+\item
+  Mini-lecture
+\item
+  Practice \texttt{jamovi}
+\item
+  Assignments (major takeaways, quizzes)
+\end{enumerate}
+
+\includegraphics{KIN610-SP22_files/figure-latex/unnamed-chunk-1-1.pdf}
+\#\# Example Weekly Schedule
+
+\begin{itemize}
+\tightlist
+\item
+  Monday-Tuesday (or get a jump-start on the weekend)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Read the chapter(s) + Study the eFlashcards
+  \end{itemize}
+\item
+  Wednesday-Thursday
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Watch the mini-lectures + Practice jamovi
+  \end{itemize}
+\item
+  Friday-Sunday
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Complete the assignments
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{student-support-services}{%
+\section{Student Support Services}\label{student-support-services}}
+
+CSUN aims to make all learning experiences as accessible as possible,
+and has a variety of resources available to help support students. If
+you believe the design of this course poses barriers to effectively
+participate or demonstrate your learning, please contact me to discuss
+possible options and adjustments.
+
+\begin{itemize}
+\tightlist
+\item
+  The IT Help Center (818)677-1400,
+  \href{mailto:helpcenter@csun.edu}{\nolinkurl{helpcenter@csun.edu}} is
+  available to help with Canvas, CSUN e-mail, SOLAR/Portal, and other
+  technical issues.\\
+\item
+  CSUN Device Loaner Program (\url{https://bit.ly/3t1G0An}) provides
+  devices that can be checked out that includes laptops, webcams,
+  hotspots and headsets
+\item
+  The Learning Resource Center (818) 677-2033 The mission of the LRC is
+  to enable students to improve their academic performance through a
+  variety of learning programs, including workshops, one-on-one and
+  group tutoring, supplemental instruction classes and interactive
+  subject area computer programs and videos. Student who use the LRC
+  learning programs will develop and strengthen their critical thinking
+  skills, study strategies, writing skills and performance in subject
+  matter courses.
+\item
+  University Counseling Services (818) 677-2366, Bayramian Hall 520. UCS
+  provides resources and information to assist students in dealing with
+  a variety of large and small psychological obstacles that may
+  interfere with academic progress and/or relationship satisfaction.
+  Services include individual, group, and crisis counseling.
+\item
+  In accordance with the CSUN Accessibility Policy
+  (\url{https://bit.ly/3yqGHE9}), CSUN is working to ensure that campus
+  communication and course materials are accessible to everyone. Please
+  reach out to me if you have difficulty with any of the materials for
+  this course.
+\item
+  If you have a disability and need accommodations, please register with
+  the Disability Resources and Educational Services (DRES) office or the
+  National Center on Deafness (NCOD).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The DRES office can be reached at (818) 677-2684.
+  \item
+    NCOD can be reached at (818) 677-2611.
+  \item
+    Reasonable accommodations and services will be provided to students
+    if requests are made in a timely manner and with appropriate
+    documentation
+  \item
+    If you would like to discuss your need for accommodations with me,
+    please drop in office hours or contact me to set up an appointment.
+  \end{itemize}
+\item
+  Food Pantry (\url{https://bit.ly/38nTsVH}) at CSUN: Anybody who faces
+  challenges securing food or housing and believes this impacts course
+  performance, should contact CSUN's Food Pantry website and the
+  corresponding contacts. If you also feel comfortable contacting me,
+  the department chair, or the Dean's Office, we can also facilitate
+  assistance. You don't have to be alone in this moment.
+\item
+  Emergency MataCare grants (\url{https://bit.ly/2WAZkIz}), one-time
+  grants to prevent evictions, urgent child care issues, etc. - DACA
+  (Deferred Action for Childhood Arrivals) Resources: Check out the
+  Central American Resource Center facebook page
+  (\url{https://bit.ly/2Yg0p9z}), legal resources listed on CSUN's
+  Educational Opportunity Program (EOP) Dream Center that was created to
+  support all undocumented students \& allies (Dream Center flyer). CSUN
+  President Harrison issued a support statement on the CSUN homepage for
+  DACA and resources.
+\item
+  Help lines (\url{https://bit.ly/3sYbMOo})(after hours when the
+  University Counseling is closed) for numerous topics/needs (e.g.,
+  suicide, drug, rape, LGBQT, military, or any crisis). You don't have
+  to manage these feelings alone.
+\item
+  Pride Center (\url{https://bit.ly/3jqNZUi}) offers support and
+  resources to lesbian, gay, bisexual, transgender, queer, \&
+  questioning students, faculty, \& staff.
+\item
+  Klotz Student Health Center (\url{https://bit.ly/3zx1Y0s}): Numerous
+  health services including primary care, dental, nutritional
+  counseling, acupuncture, massage and lots more.
+\item
+  Career Center (\url{https://bit.ly/3jtTcL2}) for resume writing \&
+  interviewing and much more; Matty's Closet
+  (\url{https://bit.ly/3jAResx}) has free professional clothes for
+  students who need interview or professional attire.
+\item
+  USU 9https://bit.ly/38uz59j) for more student services; Clubs \&
+  Organizations (\url{https://bit.ly/38tBhOa}): Hopefully a dozen people
+  have already advised you to ``get involved''
+  (\url{https://bit.ly/3ysqYVb}) at CSUN in something that interests
+  you.
+\item
+  Associated Students (\url{https://bit.ly/3yuWjGT}) offers recycling,
+  and a Children's Center providing child care
+\item
+  Financial Aid \& Scholarships (\url{https://bit.ly/3sYFzqr}) offers
+  aid for applications
+\item
+  University Library \url{https://bit.ly/3yuIEQ9}) for many additional
+  academic resources
+\item
+  Veterans Resource Center (\url{https://bit.ly/38qYtg7}) assists CSUN
+  students as they transition from military service to academic success.
+\end{itemize}
+
+Title 5, California Code of Regulations,§ 41301. Standards for Student
+Conduct -- (a) Campus Community Values: The university is committed to
+maintaining a safe and healthy living and learning environment for
+students, faculty, and staff. Each member of the campus community should
+choose behaviors that contribute toward this end. Students are expected
+to be good citizens and to engage in responsible behaviors that reflect
+well upon their university, to be civil to one another and to others in
+the campus community, and contribute positively to student and
+university life.
+
+CSUN with A HEART If you are facing challenges related to food
+insecurity, housing precarity/homelessness, mental health, access to
+technology, eldercare/childcare, or healthcare, you can find guidance,
+help, and resources from CSUN with A HEART
+(\url{https://www.csun.edu/heart}).
+
+\hypertarget{class-schedule}{%
+\section{Class Schedule}\label{class-schedule}}
+
+Not included here. Please, refer to our Canvas page.
+
+
+
+
+\end{document}
+
+\makeatletter
+\def\@maketitle{%
+  \newpage
+%  \null
+%  \vskip 2em%
+%  \begin{center}%
+  \let \footnote \thanks
+    {\fontsize{18}{20}\selectfont\raggedright  \setlength{\parindent}{0pt} \@title \par}%
+}
+%\fi
+\makeatother
