@@ -151,7 +151,7 @@ Although this is an online course, "attendance" is crucial. And by that I mean: 
 
 ## E-mail Policy
 
-If you have a question concerning this course (i.e., assignments, content, deadlines, etc.), send a message^[When referring to an assignment, open it online, copy its URL address, and include it as part of your question. Students may also answer questions that are sent to our mailing list.] to our mailing list (provide under Canvas>Modules>Survival Skills). For any other matters, send me a message at my CSUN email.
+If you have a question concerning this course (i.e., assignments, content, deadlines, etc.), send a message^[When referring to an assignment, open it online, copy its URL address, and include it as part of your question. Students may also answer questions that are sent to our mailing list.] to our mailing list (provide under Canvas>Home). For any other matters, send me a message at my CSUN email.
 
 I am usually quick to respond to student e-mails. Below, I outline why I will not respond to certain e-mails students send. Multiple rationales follow.
 
