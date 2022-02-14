@@ -14,7 +14,7 @@ geometry: margin=1in
 subtitle:
 email: ovande.furtado@csun.edu
 web: drfurtado.us
-officehours: Tue 10:00 a.m. - 12:00 noon
+officehours: By appt. only - http://calendly.com/drfurtado
 office: 289 Redwood Hal
 classroom: '*online*'
 classhours: Fully Online Asynchronous

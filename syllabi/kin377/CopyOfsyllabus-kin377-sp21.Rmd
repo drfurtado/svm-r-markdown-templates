@@ -1,7 +1,7 @@
 ---
-title: 'Cal State Northridge | KIN 377 - Motor Learning'
+title: "Cal State Northridge | KIN 377 - Motor Learning"
 author: "Ovande Furtado Jr., Ph.D."
-date: "Spring 2022"
+date: "Fall 2021"
 output:
   pdf_document:
     keep_tex: yes
@@ -10,13 +10,14 @@ output:
     template: ../../svm-latex-syllabus.tex
   html_document:
     df_print: paged
+  word_document: default
 geometry: margin=1in
-subtitle:
+subtitle: null
 email: ovande.furtado@csun.edu
 web: drfurtado.us
 officehours: Tue 10:00 a.m. - 12:00 noon
 office: 289 Redwood Hal
-classroom: '*Online*'
+classroom: '*online*'
 classhours: Fully Online Assynchronous
 fontfamily: mathpazo
 fontsize: 11pt
@@ -25,15 +26,21 @@ header-includes: \linespread{1.05}
 
 # Course Description
 
-Study of principles, theories, and research evidence regarding the nature of motor performance and learning with particular emphasis on factors that impact learning a skill through practice.
+This course is designed to study the principles, theories, and research evidence regarding the nature of motor performance, learning, and control with particular emphasis on factors that impact learning a skill through practice.
 
 # Course Format
 
 This course consists of readings, written assignments, weekly responses, and check-ins on our Canvas page.
 
->Lessons are pre-recorded and students go over the material on their own pace. However, assignments related to each module are due at the end of each week during the semester.
+I teach two different versions (FOI and OF/FOA/FOS) of this course (see below). The content covered is the same for both versions. The schedule varies slightly between the two versions[^1]. Refer to Canvas for more information.
 
-## Fully Online (OF/FOA/FOS)
+[^1]: Lessons are pre-recorded and students go over the material on their own pace. However, assignments related to each module are due at the end of each week during the semester.
+
+## Fully Online (FOI) - 19485-SP2021
+
+This is a Fully Online class (FOI) in which all class sessions and exams are presented in an online environment. FOI courses have no on campus meetings. **Online meetings may be a mix of scheduled and/or intermittent meeting times, and anytime access**.
+
+## Fully Online (OF/FOA/FOS) - 19521-SP2021 & 19869-SP2021
 
 This is a Fully Online class (OF/FOA/FOS) in which all class sessions and exams are presented in an online environment. OF courses have no on-campus meetings
 
@@ -76,30 +83,17 @@ At the conclusion of this course, students should be able to:
 
 Magill, R. A., & Anderson, D. (2020). Motor learning and control: Concepts and applications. McGraw-Hill Education.
 
-Link to Matador Bookstore: <https://bit.ly/37yiD7u>
+**Link to Matador Bookstore**: <https://bit.ly/37yiD7u>
 
 ### myCSUNDigitalAccess Program
 
-1. You are enrolled in a course which is part of the myCSUNDigitalAccess
-(MCDA) program. 
-2. The _MCDA_ program provides digital materials to students at a deeply discounted price.
-3. Some or all of your materials for this course are being provided digitally through the _MCDA_ program. 
-4. ALL enrolled students will have access to the materials through Canvas by the 1st day of class, but more likely earlier. 
-5. If you want to keep access throughout the semester, you need do nothing. A charge will be placed on your CSUN student portal account (just like tuition, but a separate charge) around the 5th or 6th week of classes. You will then be responsible for paying the university. 
-6. If you choose to obtain your materials elsewhere you have until FRIDAY, **2/11/22** to Opt-Out (see instructions below). Those who Opt-Out by **2/11/22** will lose access and will **not be charged**.
-7. Anyone who does not Opt-Out by the **2/11/22** deadline will be charged and those charges **will not be reversible**. 
+This course is part of the myCSUNDigitalAccess. The program
 
-#### Opt-out Instructions. 
+> "is designed to help students save money and have access to their materials by the first day of class. The myCSUNDigitalAccess Program is a team effort between the Campus Store, the faculty, and the publishers to provide students with the best cost savings."
 
-If you wish to opt out of this program and not purchase access to the required digital materials you will need to follow the steps below by **2/11/22**: 
+Option to **Opt-out**: You have the option to opt-out from the program by **9/17/21** (hard deadline), in which case you will lose access to the electronic material.
 
-1. Go to https://accessportal.follett.com/0150. 
-2. Click on Create an Account on the lower right. 
-3. Create an account using your CSUN email account. 
-4. Select the course(s) you wish to Opt-Out from. 
-
-> You will receive an email confirming your Opt Out selection, access will be removed and you will need to purchase the materials elsewhere on your own. 
-For more information about this program, please visit the following link: https://bit.ly/3pcWcfb
+For more information about this program, please visit the following link: <https://bit.ly/3pcWcfb>
 
 ## Suggested Material
 
@@ -151,8 +145,6 @@ Although this is an online course, "attendance" is crucial. And by that I mean: 
 
 ## E-mail Policy
 
-If you have a question concerning this course (i.e., assignments, content, deadlines, etc.), send a message^[When referring to an assignment, open it online, copy its URL address, and include it as part of your question. Students may also answer questions that are sent to our mailing list.] to our mailing list (provide under Canvas>Home). For any other matters, send me a message at my CSUN email.
-
 I am usually quick to respond to student e-mails. Below, I outline why I will not respond to certain e-mails students send. Multiple rationales follow.
 
 1.  The student could answer his/her own inquiry by reading the syllabus.
@@ -162,7 +154,9 @@ I am usually quick to respond to student e-mails. Below, I outline why I will no
 
 More e-mail stuff...
 
--   If you need to schedule an online meeting via Zoom (https://csun.zoom.us/), you can do so by visiting this link: http://calendly.com/drfurtado. Details will be provided when the meeting is scheduled via Calendly, including the option to cancel/reschedule a meeting, if needed.
+-   If you have questions concerning assignments, deadlines, etc., please first submit a post to our **Q&A Forum on Canvas**. If a response is not posted within 24 hours (by me or a classmate), you can send me an e-mail **via *inbox* in Canvas**[^2]. I will typically respond within 24 hours (Monday-Friday).
+
+-   If you need to schedule an online meeting via Zoom (<https://csun.zoom.us/>), you can do so by visiting this link: <http://calendly.com/drfurtado>. The details will be provided when the meeting is scheduled via Calendly, including the option to cancel/reschedule a meeting, if needed.
 
 [^2]: **Learning Management System used by [CSUN](https://www.csun.edu/it/canvas)**
 
@@ -177,10 +171,6 @@ Unless you have made previous arrangements, a late assignments will be docked 10
 ## Extra Credit
 
 There is no individual extra credit granted. Therefore, do not plan to make-up poor grades at the end of the semester by asking to do extra credit work. I might provide extra credit opportunities, but these will be offered to the entire class, not to individuals.
-
-### Badges
-
-You will be able to collect several badges while taking this course. You can exchange these badges for extra points. Note that the extra points can only be used for assignments under the Online Discussion category.  
 
 ## Disabilities Policy
 
@@ -244,11 +234,11 @@ You will be required to complete several online discussions while taking this co
 
 *Refer to Canvas for full requirements, but basically:*
 
-- You will be asked to choose either the 3-object Juggling or Cup Speed Stacking activity;
-- Then, you will be required to practice and learn the selected activity;
-- Before the end of the term (see Calendar for deadlines), you will be asked to video-record yourself performing the skill you have learned. This is the **Performance** portion of this assignment and accounts for 20% of the final grade;
-- The 2nd part of this assignment is a **Reflection Paper**, which also accounts for 20% of the final grade. As you practice and learn the selected skill, you will be advised to use the Motor Learning Principles (full details on Canvas) you will be exposed to while taking this course.
-- Throughout the term, you will be required to update me on your progress toward learning the selected skill (juggling or cup stacking). See Learning Task Updates below.
+-   You will be asked to choose either the 3-object Juggling or Cup Speed Stacking activity;
+-   Then, you will be required to practice and learn the selected activity;
+-   Before the end of the term (see Calendar for deadlines), you will be asked to video-record yourself performing the skill you have learned. This is the **Performance** portion of this assignment and accounts for 20% of the final grade;
+-   The 2nd part of this assignment is a **Reflection Paper**, which also accounts for 20% of the final grade. As you practice and learn the selected skill, you will be advised to use the Motor Learning Principles (full details on Canvas) you will be exposed to while taking this course.
+-   Throughout the term, you will be required to update me on your progress toward learning the selected skill (juggling or cup stacking). See Learning Task Updates below.
 
 ## Learning Task Updates
 
@@ -294,31 +284,8 @@ Ground Rules: In an effort to ensure our learning community develops, thrives an
 
 Not included here. Please, refer to our Canvas page.
 
-<<<<<<< Updated upstream:syllabi/kin377/KIN377-SP22-FO.Rmd
-# Appendices
-
-## Appendix A, B, C
-
-Not provide here. Please, refer to our Canvas page. The material associated with these appendices are related to the Learning Task Assignment, which accounts for 50% of the final grade. ***THIS MEANS YOU MUST READ AND STUDY THE CONTENT OF APPENDIX A, B, AND C.***
-=======
-# Evaluation Rubrics
-
-## LT Update 1
-
 | Col1 | Col2 | Col3 |
 |------|------|------|
 |      |      |      |
 |      |      |      |
 |      |      |      |
-
-| Criteria                                                                                                         | 5 | 3 | 2 | 0 |
-|------------------------------------------------------------------------------------------------------------------|---|---|---|---|
-| Demonstration of knowledge and understanding gained from assigned reading                                        |   |   |   |   |
-| Response to peers                                                                                                |   |   |   |   |
-| Responses (all posts) are based on reliable sources (e.g., Magill and Anderson) and not solely on person opinion |   |   |   |   |
-| Responsibly cited; offers examples                                                                               |   |   |   |   |
-| Contribution to the discussion                                                                                   |   |   |   |   |
-| Properly citation using APA Style                                                                                |   |   |   |   |
-
-
->>>>>>> Stashed changes:syllabi/kin377/KIN377-FA21.Rmd
