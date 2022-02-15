@@ -14,7 +14,7 @@ geometry: margin=1in
 subtitle:
 email: ovande.furtado@csun.edu
 web: drfurtado.us
-officehours: Tue 10:00 a.m. - 12:00 noon
+officehours: By appt. ONLY (https://calendly.com/drfurtado)
 office: 289 Redwood Hal
 classroom: '*Online*'
 classhours: Fully Online Assynchronous
@@ -103,15 +103,15 @@ For more information about this program, please visit the following link: https:
 
 ## Suggested Material
 
-## Access to Computer & Internet
+### Access to Computer & Internet
 
 Although not required, it is suggested that you have access to a computer (not simply a tablet and/or smartphone) and Internet throughout this course. Note that CSUN students are eligible to [check out tech devices from CSUN at NO COST](https://www.csun.edu/it/device-loaner-program).
 
-## Mini Juggling Balls
+### Mini Juggling Balls
 
 One of the requirements of this course is to learn a motor skill. If you select juggling, it's suggested you use [mini juggling balls](http://goo.gl/X3EjLE). Or you can use a similar object at your disposal.
 
-## Speed Stacks Sport Stacking Set
+### Speed Stacks Sport Stacking Set
 
 If you choose to learn the cup stacking, I recommend you to acquire the [cups used in national and international tournaments](http://goo.gl/Y8HXt5), or grab a set of less expensive ones from Amazon or elsewhere.
 
@@ -137,7 +137,7 @@ I will detail the policy for this course below. Basically, don't cheat and try t
 
 ## Grading Scale
 
-A 93.00-100.00 \| A- 90.00-92.99 B+ 87.00-89.99 \| B 83.00-86.99 \| B- 80.00-82.99 C+ 77.00-79.99 \| C 73.00-76.99 \| C- 70.00-72.99 D+ 67.00-69.99 \| D 63.00-66.99 \| D- 60.00-62.99 F \<59.99
+A 93.00-100.00 | A- 90.00-92.99 B+ 87.00-89.99 | B 83.00-86.99 | B- 80.00-82.99 C+ 77.00-79.99 | C 73.00-76.99 | C- 70.00-72.99 D+ 67.00-69.99 | D 63.00-66.99 | D- 60.00-62.99 F <59.99
 
 > *Note 1*: In recognition of the fact that grading, however carefully done, will always be imperfect, this class will utilize a "round up" rule for assigning final grades. I will round up from .5% and above, but anything below this will round down. In other words, 79.5 will round up to 80, while 79.4 will round down to 79 even.
 
@@ -164,8 +164,6 @@ More e-mail stuff...
 
 -   If you need to schedule an online meeting via Zoom (https://csun.zoom.us/), you can do so by visiting this link: http://calendly.com/drfurtado. Details will be provided when the meeting is scheduled via Calendly, including the option to cancel/reschedule a meeting, if needed.
 
-[^2]: **Learning Management System used by [CSUN](https://www.csun.edu/it/canvas)**
-
 ## Make-Up Exam Policy
 
 There is no make-up for assignments. Therefore, unless you have discussed your situation with me before the assignment's due date and we have made other arrangements, a missed assignment results in a grade of zero (see late assignment below). **Note that making "arrangements" will only be possible given the student provides a valid and written excuse from a reputable source**.
@@ -187,7 +185,6 @@ You will be able to collect several badges while taking this course. You can exc
 Federal law mandates the provision of services at the university-level to qualified students with disabilities.
 
 This instructor, in conjunction with California State University Northridge, is committed to upholding and maintaining all aspects of the federal Americans with Disabilities Act of 1990 (ADA) and Section 504 of the Rehabilitation Act of 1973.
-
 If you are a student with a disability and wish to request accommodations, please contact the office of Students with Disabilities Resources located in 110 Student Services Building, or call (818) 677-2684 for an appointment. Any information regarding your disability will remain confidential. Because many accommodations require early planning, requests for accommodations should be made as early as possible. Any requests for accommodations will be reviewed in a timely manner to determine their appropriateness to this setting.
 
 ## Academic Dishonesty Policy
@@ -294,31 +291,24 @@ Ground Rules: In an effort to ensure our learning community develops, thrives an
 
 Not included here. Please, refer to our Canvas page.
 
-<<<<<<< Updated upstream:syllabi/kin377/KIN377-SP22-FO.Rmd
 # Appendices
 
 ## Appendix A, B, C
 
 Not provide here. Please, refer to our Canvas page. The material associated with these appendices are related to the Learning Task Assignment, which accounts for 50% of the final grade. ***THIS MEANS YOU MUST READ AND STUDY THE CONTENT OF APPENDIX A, B, AND C.***
-=======
+
 # Evaluation Rubrics
 
 ## LT Update 1
 
-| Col1 | Col2 | Col3 |
-|------|------|------|
-|      |      |      |
-|      |      |      |
-|      |      |      |
+- Demonstration of knowledge and understanding gained from assigned reading
+- Response to peers
+- Responses (all posts) are based on reliable sources (e.g., Magill and Anderson) and not solely on person opinion
+- Responsibly cited; offers examples
+- Contribution to the discussion
+- Properly citation using APA Style
 
-| Criteria                                                                                                         | 5 | 3 | 2 | 0 |
-|------------------------------------------------------------------------------------------------------------------|---|---|---|---|
-| Demonstration of knowledge and understanding gained from assigned reading                                        |   |   |   |   |
-| Response to peers                                                                                                |   |   |   |   |
-| Responses (all posts) are based on reliable sources (e.g., Magill and Anderson) and not solely on person opinion |   |   |   |   |
-| Responsibly cited; offers examples                                                                               |   |   |   |   |
-| Contribution to the discussion                                                                                   |   |   |   |   |
-| Properly citation using APA Style                                                                                |   |   |   |   |
+**Criteria**
+5-0
 
 
->>>>>>> Stashed changes:syllabi/kin377/KIN377-FA21.Rmd

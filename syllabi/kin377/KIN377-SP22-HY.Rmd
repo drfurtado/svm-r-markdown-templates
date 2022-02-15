@@ -14,7 +14,7 @@ geometry: margin=1in
 subtitle:
 email: ovande.furtado@csun.edu
 web: drfurtado.us
-officehours: Tue 10:00 a.m. - 12:00 noon
+officehours: By appt. ONLY (https://calendly.com/drfurtado)
 office: 289 Redwood Hal
 classroom: '*Jacaranda 2522 & Online*'
 classhours: TuTh 12:30PM - 1:45PM
@@ -297,3 +297,17 @@ Not included here. Please, refer to our Canvas page.
 ## Appendix A, B, C
 
 Not provide here. Please, refer to our Canvas page. The material associated with these appendices are related to the Learning Task Assignment, which accounts for 50% of the final grade. ***THIS MEANS YOU MUST READ AND STUDY THE CONTENT OF APPENDIX A, B, AND C.***
+
+# Evaluation Rubrics
+
+## LT Update 1
+
+- Demonstration of knowledge and understanding gained from assigned reading
+- Response to peers
+- Responses (all posts) are based on reliable sources (e.g., Magill and Anderson) and not solely on person opinion
+- Responsibly cited; offers examples
+- Contribution to the discussion
+- Properly citation using APA Style
+
+**Criteria**
+5-0
