@@ -59,7 +59,7 @@ At the conclusion of this course, students should be able to:
 8.  Describe how and why the concept of individual differences is important in skill acquisition.
 9.  Describe and understand motor learning and control issues for special populations.
 10. Develop and implement methods of performance assessments.
-11. Develop and implement a series of practice sessions designed to teach and/or learn a novel motor skill.
+11. Develop and implement a series of practice sessions designed to teach and/or learn a novel motor. skill.
 
 # Student Learning Outcomes (SLO'S)
 
