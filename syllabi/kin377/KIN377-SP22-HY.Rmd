@@ -16,7 +16,7 @@ email: ovande.furtado@csun.edu
 web: drfurtado.us
 officehours: By appt. ONLY (https://calendly.com/drfurtado)
 office: 289 Redwood Hal
-classroom: '*Jacaranda 2522 & Online*'
+classroom: '*Jacaranda 2520 & Online*'
 classhours: TuTh 12:30PM - 1:45PM
 fontfamily: mathpazo
 fontsize: 11pt
