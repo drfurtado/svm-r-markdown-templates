@@ -1,7 +1,7 @@
 ---
 title: 'Cal State Northridge | KIN 377 - Motor Learning'
 author: "Ovande Furtado Jr., Ph.D."
-date: "Spring 2022"
+date: "Summer 2022"
 output:
   pdf_document:
     keep_tex: yes
@@ -41,12 +41,6 @@ In addition,
 
 > This course is not self-paced and is not the "softer, easier way"! This means that you have to **1) check in regularly and 2) respond to the weekly assignments.**
 
-## Are you ready to learn online?
-
-Online learning is often described as "harder than expected." This is due to the unique nature of online classes. If this is your first online class, please take a moment to click the link below and assess your readiness to succeed online. The survey is informational only and will not be required for enrollment. However, it can be used to understand the kind of commitment that is necessary for success in online learning.
-
-<http://www.csuci.edu/tli/onlinereadiness.htm>
-
 # Expectations and Goals
 
 At the conclusion of this course, students should be able to:
@@ -77,29 +71,6 @@ At the conclusion of this course, students should be able to:
 Magill, R. A., & Anderson, D. (2020). Motor learning and control: Concepts and applications. McGraw-Hill Education.
 
 Link to Matador Bookstore: <https://bit.ly/37yiD7u>
-
-### myCSUNDigitalAccess Program
-
-1. You are enrolled in a course which is part of the myCSUNDigitalAccess
-(MCDA) program. 
-2. The _MCDA_ program provides digital materials to students at a deeply discounted price.
-3. Some or all of your materials for this course are being provided digitally through the _MCDA_ program. 
-4. ALL enrolled students will have access to the materials through Canvas by the 1st day of class, but more likely earlier. 
-5. If you want to keep access throughout the semester, you need do nothing. A charge will be placed on your CSUN student portal account (just like tuition, but a separate charge) around the 5th or 6th week of classes. You will then be responsible for paying the university. 
-6. If you choose to obtain your materials elsewhere you have until FRIDAY, **2/11/22** to Opt-Out (see instructions below). Those who Opt-Out by **2/11/22** will lose access and will **not be charged**.
-7. Anyone who does not Opt-Out by the **2/11/22** deadline will be charged and those charges **will not be reversible**. 
-
-#### Opt-out Instructions. 
-
-If you wish to opt out of this program and not purchase access to the required digital materials you will need to follow the steps below by **2/11/22**: 
-
-1. Go to https://accessportal.follett.com/0150. 
-2. Click on Create an Account on the lower right. 
-3. Create an account using your CSUN email account. 
-4. Select the course(s) you wish to Opt-Out from. 
-
-> You will receive an email confirming your Opt Out selection, access will be removed and you will need to purchase the materials elsewhere on your own. 
-For more information about this program, please visit the following link: https://bit.ly/3pcWcfb
 
 ## Suggested Material
 
@@ -161,14 +132,9 @@ Keep it in mind:
 
 I am usually quick to respond to student e-mails. Below, I outline why I will not respond to certain e-mails students send. Multiple rationales follow.
 
-1.  The student could answer his/her own inquiry by reading the syllabus.
-2.  The student is protesting a grade without reference to specific points of objection. See the policy on protesting a grade in the syllabus. These e-mails tend to be expressive utility on the part of the student and do not require a response from me. Students interested in improving their knowledge of material should see me during office hours.
-3.  The student is requesting an extension on an assignment for which the syllabus already established the deadline. The answer is always "no"; unless you have a reason that can be documented and you contacted me before the deadline.
-4.  The student is asking for an extra credit opportunity, a request that amounts to more grading for the professor. The answer is "no".
-
 More e-mail stuff...
 
--   If you need to schedule an online meeting via Zoom (https://csun.zoom.us/), you can do so by visiting this link: http://calendly.com/drfurtado. Details will be provided when the meeting is scheduled via Calendly, including the option to cancel/reschedule a meeting, if needed.
+- If you need to schedule an online meeting via Zoom (https://csun.zoom.us/), you can do so by visiting this link: http://calendly.com/drfurtado. Details will be provided when the meeting is scheduled via Calendly, including the option to cancel/reschedule a meeting, if needed.
 
 ## Make-Up Exam Policy
 
@@ -181,10 +147,6 @@ Unless you have made previous arrangements, a late assignments will be docked 10
 ## Extra Credit
 
 There is no individual extra credit granted. Therefore, do not plan to make-up poor grades at the end of the semester by asking to do extra credit work. I might provide extra credit opportunities, but these will be offered to the entire class, not to individuals.
-
-### Badges
-
-You will be able to collect several badges while taking this course. You can exchange these badges for extra points. Note that the extra points can only be used for assignments under the Online Discussion category.  
 
 ## Disabilities Policy
 
@@ -302,19 +264,3 @@ Not included here. Please, refer to our Canvas page.
 ## Appendix A, B, C
 
 Not provide here. Please, refer to our Canvas page. The material associated with these appendices are related to the Learning Task Assignment, which accounts for 50% of the final grade. ***THIS MEANS YOU MUST READ AND STUDY THE CONTENT OF APPENDIX A, B, AND C.***
-
-# Evaluation Rubrics
-
-## LT Update 1
-
-- Demonstration of knowledge and understanding gained from assigned reading
-- Response to peers
-- Responses (all posts) are based on reliable sources (e.g., Magill and Anderson) and not solely on person opinion
-- Responsibly cited; offers examples
-- Contribution to the discussion
-- Properly citation using APA Style
-
-**Criteria**
-5-0
-
-
